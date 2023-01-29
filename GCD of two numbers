@@ -1,0 +1,8 @@
+MVI A,
+MVI B,
+LOOP: DIV B ;
+MOV D, A 
+MOV A, B ;
+MOV B, D ;
+JNZ LOOP ; 
+HLT ;
